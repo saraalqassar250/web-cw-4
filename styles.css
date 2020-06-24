@@ -13,20 +13,43 @@ html, body{
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
 
+.flexer{
+    display: flex;
+    height: 100%;
+}
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: #5c6b73;
+    color: white;
+    padding: 8px;
+    height: 100%;
+    margin: 0px;
+
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    background-color:#e2e2df ;
+color: white;
+height: 20%;
+text-align: center;
+margin: 0px;
 }
 
 .main{
-
+    background-color: #f9c6c9;
+color: white;
+height: 80%;
+text-align: center;
+margin: 0px;
+padding: 8px;
 }
 
 a{
     color: darkgray;
+    text-decoration: none;
+
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
 }
 
@@ -34,6 +57,29 @@ a{
 /* (hover) اجعل اللنك يتغير لونه الى الابيض عند التأشير عليه */
 /* (p) غير محاذاة الفقرات لتصبح بالوسط */
 
+.container{
+   height: 100%; 
+   width: 100%;
+}
+
+
+.btn {
+    list-style: none;
+    text-decoration: none;
+    background-color: #2b2d42;
+  
+    color: white;
+    padding: 40px;
+
+
+}
+.footer{
+    text-align: center;
+    color: white;
+    background-color:#5c6b73; 
+    width: 100%;
+    height: 5%;
+    padding: 8px;
 
 
 h1{
